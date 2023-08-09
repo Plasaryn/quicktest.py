@@ -19,7 +19,7 @@ that were performed with it in the past. As such, this
 style guide is meant to provide instructions for how a user
 can perform these actions without cluttering up the workspace.
 
-> GLOBAL DEFINITIONS
+## GLOBAL DEFINITIONS
 Inside this document, the only thing that should be defined
 in the global scope are functions and classes. The purpose 
 behind this is to;
@@ -30,13 +30,15 @@ behind this is to;
 As such, quicktest.py (and hopefully more scripts) follow
 the boilerplate setup of 
 
+```
 def main():
     do_stuff()
 
 if __name__ == "__main__": 
     main()
+```
 
-The  __name__ == "__main__" condition test will only execute
+The  ```__name__ == "__main__"``` condition test will only execute
 code if the script is run directly, which means that functions
 WONT run if the script is imported. This helps ensure 
 that no unwanted computations are executed if you were
