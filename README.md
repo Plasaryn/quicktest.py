@@ -78,7 +78,7 @@ function rather than at the top of the document. This
 follows other python style guides in spirit by only
 importing dependent packages when necessary, such as
 other tactics like
-from x import y,z
+```from x import y,z```
 
 Inside of these callable functions, it is up to the 
 discretion of the user to adhere to their own stylistic

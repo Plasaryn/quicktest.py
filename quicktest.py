@@ -1,6 +1,6 @@
 # Write your code here!
 
-#E.G.
+# E.G.
 def get_python_version():
     import sys
     print(f"Python Version: {sys.version}")
